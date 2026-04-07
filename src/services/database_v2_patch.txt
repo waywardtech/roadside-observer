@@ -1,0 +1,8 @@
+-- NEXT STEP (manual patch to apply):
+-- ALTER TABLE entries ADD COLUMN plate TEXT;
+-- ALTER TABLE entries ADD COLUMN sticker TEXT;
+-- ALTER TABLE entries ADD COLUMN subjects TEXT; -- JSON array
+-- ALTER TABLE entries ADD COLUMN meaning TEXT;
+-- ALTER TABLE entries ADD COLUMN history TEXT;
+
+-- NOTE: Will be automated in next commit safely.
