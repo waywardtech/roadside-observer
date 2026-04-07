@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Roadside Observer",
+    "slug": "roadside-observer",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Roadside Observer uses the camera so you can manually capture travel log entries.",
+        "NSPhotoLibraryAddUsageDescription": "Roadside Observer saves exported reports and images to your device when you choose to share or store them."
+      }
+    },
+    "android": {
+      "permissions": [
+        "CAMERA"
+      ]
+    },
+    "plugins": [
+      "expo-camera",
+      "expo-sqlite"
+    ]
+  }
+}
