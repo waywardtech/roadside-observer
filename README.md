@@ -110,6 +110,17 @@ npm run web
 
 This repository currently contains a compact starter implementation. The app logic lives mostly in `App.tsx`, with persistence and report generation split into service files. A natural next step would be refactoring the UI into reusable components and adding navigation.
 
+## FAQ
+
+**Does it read license plates automatically?**
+No, by design. Every entry is typed in by you. There is no plate recognition, no lookups and no tracking.
+
+**Where is my data stored?**
+On your device only, in a local SQLite database. Nothing is uploaded.
+
+**Which platforms does it run on?**
+iOS and Android through Expo, plus a basic web build.
+
 ## License
 
-Add the license of your choice here.
+MIT. See `LICENSE`.
